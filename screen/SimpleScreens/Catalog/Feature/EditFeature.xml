@@ -63,6 +63,7 @@ along with this software (see the LICENSE.md file). If not, see
                 <form-single name="EditFeatureForm" map="feature" transition="updateFeature">
                     <field name="productFeatureId"><default-field title="ID"><display/></default-field></field>
                     <field name="abbrev"><default-field title="Abbreviation"><text-line size="10"/></default-field></field>
+                    <field name="idCode"><default-field title="ID Code"><text-line size="10"/></default-field></field>
                     <field name="description"><default-field><text-line size="60"/></default-field></field>
                     <field name="productFeatureTypeEnumId"><default-field title="Type">
                         <widget-template-include location="component://webroot/template/screen/BasicWidgetTemplates.xml#enumDropDown">
